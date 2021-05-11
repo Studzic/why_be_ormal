@@ -5,9 +5,20 @@ const sequelize = require('../config/connection.js');
 class Tag extends Model {}
 
 Tag.init(
-  {
+ 
     // define columns
+    { id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
+    },
+
+    //given the string as data type since it is a word. 
+  tag_name: DataTypes.STRING,
   },
+
+
   {
     sequelize,
     timestamps: false,
