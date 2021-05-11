@@ -1,4 +1,4 @@
-<h1 align="center">🎇Employee Tracker🎇</h1>
+<h1 align="center">🎇Mysql Database🎇</h1>
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
